@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming store</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="./index.html"><img src="./img/logo.png" alt="" width="80px" height="80px"></a>
+        <div class="bx bx-menu" id="icono-menu"></div>
+        <ul class="navbar">
+            <a href="#inicio"><li>INICIO</li></a>
+            <a href="#quienes-somos"><li>QUIENES SOMOS</li></a>
+            <a href="#productos"><li>PRODUCTOS</li></a>
+            <a href="#contactanos"><li>CONTACTANOS</li></a>
+        </ul>
+    </header>
+    <section class="inicio" id="inicio">
+        <div class="texto-inicio">
+            <h1> <span>De</span> todo <br> para <span>Gamers</span></h1>
+            <p>En Game Store, nos apasiona el mundo de los videojuegos y sabemos que tú también. Por eso, nos dedicamos a ofrecerte una selección inigualable de los últimos lanzamientos, clásicos favoritos y exclusivas irresistibles. Ya seas un jugador casual o un hardcore gamer, encontrarás todo lo que necesitas para disfrutar al máximo de tus momentos de juego.</p>
+            <a href="#productos" class="boton">Ver Productos</a>
+        </div>
+    </section>
+    <section class="quienes-somos" id="quienes-somos">
+        <div class="quienes">
+            <h2>QUIÉNES SOMOS</h2>
+        </div>
+        <div class="texto-contenido">
+            <p>Somos una tienda dedicada a los videojuegos y todo lo relacionado con el mundo gamer. Nuestro objetivo es ofrecer a nuestros clientes los mejores productos, desde las últimas consolas hasta los juegos más populares y accesorios imprescindibles. Nos enorgullece ser un punto de referencia para los gamers de todas las edades y niveles.</p>
+            <p>Con años de experiencia en el mercado, nos esforzamos por brindar un servicio de calidad, asesoramiento personalizado y una experiencia de compra única. ¡Ven y descubre todo lo que tenemos para ti!</p>
+        </div>
+    </section>
+    <section class="productos" id="productos">
+        <div class="cabecera" >
+            <h2>NUESTROS PRODUCTOS</h2>
+        </div>
+        <div class="cont-prod">
+            <div class="caja">
+                <img src="./img/consola.webp" alt="ps5">
+                <h3>Consolas</h3>
+                <a href=""><span>Ver mas</span></a>
+            </div>
+            <div class="caja">
+                <img src="./img/juegos.jpg" alt="juego">
+                <h3>Juegos</h3>
+                <a href=""><span>Ver mas</span></a>
+            </div>
+            <div class="caja">
+                <img src="./img/accesorio.jpg" alt="acce">
+                <h3>Accesorios</h3>
+                <a href=""><span>Ver mas</span></a>
+            </div>
+            <div class="caja">
+                <img src="./img/merch.webp" alt="merch">
+                <h3>Merch</h3>
+                <a href=""><span>Ver mas</span></a>
+            </div>
+            <div class="caja">
+                <img src="./img/coleccionable.jfif" alt="colecc">
+                <h3>Coleccionables</h3>
+                <a href=""><span>Ver mas</span></a>
+            </div>
+            <div class="caja">
+                <img src="./img/pc.webp" alt="pc">
+                <h3>Todo para PC</h3>
+                <a href=""><span>Ver mas</span></a>
+            </div>
+        </div>
+    </section>
+    <section class="contactanos" id="contactanos">
+        <div class="cabecera">
+            <h2>CONTÁCTANOS</h2>
+        </div>
+        <div class="form">
+            <p>¿Tienes alguna pregunta o necesitas más información? No dudes en ponerte en contacto con nosotros.</p>
+            <br>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <br><br>
+                <button type="submit" class="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>HUARAZ  -  TODOS LOS DERECHOS RESERVADOS  -  2024</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
